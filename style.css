@@ -1,0 +1,1203 @@
+body{
+    background-image: url(../img/gp67a.png);
+    margin: 0;
+    background-attachment: fixed;
+    padding: 0;
+}
+
+
+
+header{
+  position: fixed;
+   width: 20vw;
+    height: 100vh;
+    top:0;
+}
+
+.menu_buttom{
+display: none;
+}
+
+
+
+.inner{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.inner a:hover{
+    opacity: 0.9;
+}
+
+#graffiti_rogo{
+width: 80%;
+}
+
+#rogo_subcolor{
+       display: none;
+    }
+    
+
+.nav_wrapper{
+    margin-top: 40%;
+}
+
+.nav_pic{
+    position: absolute;
+    left:16vw;
+    width: 95%;
+   
+}
+
+.nav_top:hover ~ .top_pic{
+     left: 7vw;
+}
+
+.nav_event:hover ~ .event_pic{
+      left: 9vw;
+}
+
+.nav_cafe:hover ~ .cafe_pic{
+      left: 8vw;
+}
+
+.nav_access:hover ~ .access_pic{
+      left: 10vw;
+}
+
+.nav_app:hover ~ .app_pic{
+      left: 7vw;
+}
+
+.nav_contact:hover ~ .contact_pic{
+      left: 11vw;
+}
+
+.nav_picture img{
+    padding: 1vw 0;
+}
+
+a{
+    text-decoration: none;
+    color: #2b2b2b;
+}
+
+nav ul li{
+    list-style: none;
+   margin-top: 12%;
+}
+
+
+.nav_picture_area{
+   display: flex;
+
+}
+
+.icon_wrapper{
+   padding-left: 3vw;
+    margin-top: 3vw;
+}
+
+.faceboock{
+    padding-right: 1vw;
+}
+
+ul{
+     padding-inline-start: 3vw;
+    font-family: Times New Roman;
+}
+
+.wrapper_inner{
+  
+    margin-left: 35px;
+  background-color: #fffdf8;
+}
+
+.test{
+    width:200px;
+    background-color: aqua;
+}
+
+.topimg{
+    text-align: center;
+    padding: 5% 0;
+}
+
+.top_photo{
+    width: 90%;
+}
+
+.wrapper{
+  width: calc(100% - 21.5vw);
+   margin: 1.5% 1.5% 1% auto;
+    position: relative;
+    background-image: url(../img/note21_mini.png);
+    background-repeat: repeat-y;
+    background-size: inherit;
+    background-position: top left;
+    border-radius: 3px;
+}
+
+.label_title_img{
+   width:100%;
+}
+
+
+
+.label_title{
+    position: absolute;
+    right: 0;
+    padding: 0 1%;
+    width: 25%;
+    top:0;
+}
+
+.totop{
+    position: fixed;
+    top: 85vh;
+    right: 2vw;
+}
+
+.concept_text{
+    width: 30%;
+    margin: 0 auto;
+}
+.concept_text p{
+    line-height: 3em;
+}
+
+.concept{
+    text-align: center;
+}
+
+.about{
+    width:100% ;
+    padding: 10% 0 10% 0;
+    display: flex;
+     flex-direction: row-reverse;
+}
+
+.infomation{
+    width:100% ;
+   padding: 10% 0 10% 0;
+    display: flex;
+   
+}
+
+.section_title{
+    font-family: Playfair Display,serif;
+    font-weight:900;
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+
+.sections{
+    padding:0  1vw;
+    
+     background-color: #fffdf8;
+}
+
+
+
+.section_img{
+    width: 55%;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.section_pic{
+    display: table-cell;
+  
+}
+
+.section_about{
+    position: relative;
+}
+
+.section_info{
+    position: relative;
+}
+
+.about_picture{
+    width: 3em;
+    vertical-align:baseline;
+  
+}
+.info_picture{
+    width: 1.2em;
+    vertical-align:sub;
+}
+
+.about_text{
+    padding-left: 5%;
+    padding-right: 1%;
+}
+
+.info_text{
+    padding-left: 4%;
+}
+
+.text{
+    width: 45%;
+    font-family: Playfair Display,serif;
+  line-height: 2;
+    font-weight: 500;
+    color: #1e1e1e;
+}
+
+.text_space{
+    padding-left: 4.6vw;
+}
+
+.nav_text{
+font-weight:bold;
+    color: #2b2b2b;
+
+}
+
+footer{
+    margin: 0 auto;
+    width: 80%;
+    border-top: 1px solid #c1c1c1;
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.7em;
+    padding-bottom: 2%;
+}
+
+/*イベント*/
+
+.label_heading{
+   position: absolute;
+    padding-right: 1%;
+    right: 0;
+    width: 7%;
+    top:0;
+}
+
+.section_subtitle{
+    font-family: Playfair Display,serif;
+    font-size: 1em;
+    margin-top: 0;
+}
+
+.section_now{
+    margin: 0 auto;
+   text-align: center;
+   
+}
+
+.section_now h2{
+    margin: 0;
+    padding: 5%;
+    line-height: 1.3;
+    display: inline-block;
+    background-image: url(../img/wakusen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.harumakiko_prof{
+    display: flex;
+    align-items: flex-start;
+    background: url(../img/stripe_pink.png) top left;
+    background: url(../img/stripe_pink.png) bottom right;
+    background-repeat: repeat-x;
+   padding: 0 0 5% 0;
+     justify-content: center;
+  align-items: center;
+}
+
+
+.harumakiko_prof img{
+    padding:6% 3% 3%;
+}
+
+
+.now{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5% 0 15%;
+}
+
+.harumakiko_gallery{
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.harumakiko_gallery img:first-of-type{
+    width: 100%;
+}
+
+.harumakiko_gallery img{
+    padding: 1%;
+}
+
+.harumakiko_mini_pic{
+    width: 31%;
+}
+
+
+
+.now_text{
+    text-align: left;
+    padding: 5% 0 15% 0;
+     background: url(../img/stripe_pink.png) bottom right;
+    background-repeat: repeat-x;
+    font-family: Playfair Display,serif;
+    font-weight: 500;
+}
+
+.prof_text{
+    font-family: Playfair Display,serif;
+    font-weight: 500;
+}
+
+.harumakiko{
+    font-size: 1.5em;
+}
+
+.section_title p{
+    margin-bottom: 0;
+}
+
+.section_subtitle{
+    font-size: 0.5em;
+}
+
+
+.section_future{
+    text-align: center;
+    margin:auto;
+ 
+    
+    
+}
+
+.section_future h2{
+    margin: 0;
+    padding: 5% 10%;
+     line-height: 1.3;
+    display: inline-block;
+     background-image: url(../img/wakusen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.event_wapper{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+    text-align: center;
+    padding: 0 0 10% 0;
+}
+
+.event_item{
+    background-color: white;
+   margin: 4%;
+    border: 1px solid #a98a82;
+}
+.event_item p{
+    font-family: Playfair Display,serif;
+    font-weight: 500;
+}
+
+/*カフェ*/
+
+.cafe{
+width: 85%;  
+margin: 0 auto;
+}
+
+.drink{
+    padding: 5% 0;
+}
+
+.section_drink,.section_desert{
+    text-align: center;
+}
+
+.drink_pic,.desert_pic{
+    padding: 0 0.3em;
+    width: 1.2em;
+    vertical-align:baseline;
+}
+
+.menu_item{
+    display: flex;
+    padding: 5% 0;
+    align-items: flex-start;
+     justify-content: center;
+  align-items: center;
+}
+
+.menu_item_re{
+    display: flex;
+    flex-direction:row-reverse;
+    padding: 5% 0;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menu_texts{
+    display: flex;
+    flex-direction: column;
+       
+}
+
+.menu_text{
+    padding: 0 10%;
+    font-family: Playfair Display,serif;
+    font-weight: 500;
+}
+
+.menu_name{
+    font-size: 1.2em;
+}
+
+.menu_text p:first-of-type{
+    border-bottom: 3px dotted #e18379;
+}
+
+.tax{
+    font-size:  0.750rem;
+}
+
+.desert{
+    padding: 10% 0;
+}
+
+/*マップ*/
+.map_pic{
+    width: 1.2em;
+    vertical-align:sub;
+}
+
+.access{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.map{
+    padding: 5% 0;
+}
+
+.section_map{
+    text-align: center;
+}
+
+iframe{
+    padding: 5% 0;
+}
+
+.map_texts{
+    padding-bottom: 15%;
+    font-family: Playfair Display,serif;
+    font-weight: 500;
+}
+
+/*アプリケーション*/
+.entry
+{
+    padding: 5% 0 15% 0;
+}
+
+.section_entry{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+
+
+.entry_pic{
+     width: 1.2em;
+    vertical-align:sub;
+    padding: 0 0.2em;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+
+.radio01 {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 30px;
+    position: relative;
+    width: auto;
+}
+.radio01::before {
+    background: #fff;
+    border: 1px solid #231815;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 5px;
+    margin-top: -9px;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
+.radio01::after {
+    background: #ed7a9c;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 10px;
+    left: 9px;
+    margin-top: -5px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    width: 10px;
+}
+input[type=radio]:checked + .radio01::after {
+    opacity: 1;
+}
+
+
+
+.radio02 {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 30px;
+    position: relative;
+    width: auto;
+}
+.radio02::before {
+    background: #fff;
+    border: 1px solid #231815;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 5px;
+    margin-top: -9px;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
+.radio02::after {
+    background: #ed7a9c;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 10px;
+    left: 9px;
+    margin-top: -5px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    width: 10px;
+}
+input[type=radio]:checked + .radio02::after {
+    opacity: 1;
+}
+
+
+.radio03 {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 30px;
+    position: relative;
+    width: auto;
+}
+.radio03::before {
+    background: #fff;
+    border: 1px solid #231815;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 5px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
+.radio03::after {
+    background: #ed7a9c;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 10px;
+    left: 9px;
+    margin-top: -4px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    width: 10px;
+}
+input[type=radio]:checked + .radio03::after {
+    opacity: 1;
+}
+
+
+
+
+.radio04 {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 30px;
+    position: relative;
+    width: auto;
+}
+.radio04::before {
+    background: #fff;
+    border: 1px solid #231815;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 5px;
+    margin-top: -8px;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
+.radio04::after {
+    background: #ed7a9c;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 10px;
+    left: 9px;
+    margin-top: -4px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    width: 10px;
+}
+input[type=radio]:checked + .radio04::after {
+    opacity: 1;
+}
+
+.input_box{
+    padding: 2%;
+    height: 30px;
+}
+
+.input_boxs{
+    display: flex;
+    padding: 5% 0;
+    border-bottom: 2px dotted #f69680;
+    flex-wrap: wrap;
+ 
+}
+
+.radio_boxs{
+    display: flex;
+    flex-direction: column;
+}
+
+.input_boxs p span{
+    color: red;
+    font-size: 0.7rem;
+    padding-left: 0.5rem;
+}
+
+.radio_boxs.input_box{
+    height: auto;
+    padding: 0;
+}
+
+.radio_boxs_flex.input_box{
+    padding: 0;
+}
+
+.radio_boxs_flex{
+    display: flex;
+}
+
+.entry_sheet{
+    margin: 0 10%;
+    font-family: Playfair Display,serif;
+    font-weight: 500;
+}
+
+.entry_sheet div:first-of-type p{
+    margin-bottom: 0;
+    padding-bottom: 2%;
+    border-bottom: 2px dotted #f69680;
+    font-size: 0.9em;
+}
+
+
+
+.input_boxs p:first-of-type{
+    width: 30vh;
+    margin: 0;
+}
+
+input[type="address"]{
+    width: 100%;
+}
+
+input[type="postcode"]{
+    width: 50%;
+}
+
+input[type="tell"]{
+    width: 60%;
+}
+
+input[type="email"]{
+    width: 100%;
+}
+
+.submit{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.submit_btn{
+    display: inline-block;
+    border-radius: 5%;
+    font-size: 1.2rem;
+  cursor: pointer;
+    padding: 1% 5%;
+    background: #df7861;
+    color: white;
+    letter-spacing: 1rem;
+    text-indent: 1rem;
+    border-style: none;
+}
+
+:focus{
+    outline-color: #df7861;
+}
+
+input[type="submit"]:hover{
+    transform: scale(1.1,1.1);
+}
+
+.email_area{
+    width: 50%;
+}
+
+
+
+
+.address_area{
+    width: 75%;
+}
+
+
+/*コンタクト*/
+textarea {
+  resize: none;
+  width:300px;
+  height:500px;
+}
+
+.comment_area{
+    height: auto;
+}
+
+textarea[type=comment]{
+    height: 200px;
+}
+
+.mail_pic{
+    width: 1.2em;
+    vertical-align:baseline;
+    padding: 0 0.2em;
+}
+
+
+
+
+
+/*メディアクエリ*/
+@media screen and (max-width: 912px){
+    
+    .header_all{
+        margin: 12% 0 10% 0;
+    }
+    
+    .text{
+    width: 45%;
+    font-size: 0.9em;
+    letter-spacing: .26px;
+    line-height: 2;
+    color: #1e1e1e;
+}
+    
+    
+header{
+position:fixed;
+width: 100%;
+z-index: 10;
+height: auto;
+
+display: flex;
+
+}
+    
+    .menu_btn{
+        position: absolute;
+        margin: 2vw 0 0 4vw;
+        cursor: pointer;
+    }
+    
+    .icon_bar{
+    display: block;
+    width: 8vw;
+    height: 3px;
+    border-radius: 1px;
+    background-color: white;
+    margin-top: 1.5vh;
+    transition: all 1s ease-in-out;
+    }
+    
+    
+    
+    
+.nav_pic{
+display: none;
+}
+  
+    .nav_wrapper{
+    display: none;
+    position: absolute;
+   margin-top: 0;
+    left: 0;
+    width: 100%;
+        height: 100vh;
+    background-color:  #fffdf8;
+    padding-top: 20vh;
+    z-index: -5;
+    
+    }
+    
+    .nav_menu{
+        text-align: center;
+        padding: 0;
+    }
+    .nav_text{
+margin-top: 5%;}
+    
+    .icon_wrapper{
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    .top_head{
+          background-image: url(../img/header.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    }
+    
+    
+ #graffiti_rogo{
+display: none;
+width: 100%;
+}
+    #rogo_subcolor{
+        display: inline-block;
+        width: 100%;
+    }
+    
+.inner{
+  width: 30%;
+    margin: 0;
+    padding: 3% 35%;  
+    background-image: url(../img/header.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+    
+
+    #section_wrapper{
+        margin-left: -3vw;
+    }
+    
+.wrapper {
+ width: auto;
+    margin: 1.5% 1.5% 1% auto;
+}
+
+ 
+    
+.wrapper_inner {
+
+ margin-left: 35px;
+border-radius: 3px;
+    
+}
+    
+    .section_title{
+        font-family: Playfair Display,serif;
+    font-weight:900;
+    font-size: 2em;
+}
+    
+    
+    
+    .about_text{
+        padding-left: 10%;
+    }
+    
+    .info_text{
+        padding-right: 5%;
+    }
+    
+/*    カフェ（900）*/
+    .menu_item img{
+        width: 50%;
+    }
+    
+    .menu_item_re img{
+        width: 50%;
+    }
+    
+/*    アプリケーション*/
+     .entry_sheet div:first-of-type p {
+        font-size: 0.8em;
+}
+}
+
+
+
+
+
+/*メディアクエリ*/
+@media screen and (max-width: 711px){
+    
+   .header_all{
+        margin: 10% 0;
+    }
+    
+    .icon_bar{
+        margin-top: 1vh;
+    }
+    
+    .totop{
+float: left;}
+    
+    .text{
+    width: 45%;
+    font-size: 1em;
+    letter-spacing: .26px;
+    line-height: 2;
+    color: #1e1e1e;
+}
+    
+    
+    .topimg{
+        padding: 7% 0 5% 0;
+    }
+    
+    #section_wrapper{
+        margin-left: -4vw;
+    }  
+    
+    .section_img {
+    width: 90%;
+        margin: 0 auto;
+        padding-left: 0;
+}
+    
+    .text {
+    width: 90%;
+    letter-spacing: .26px;
+    line-height: 2;
+    color: #1e1e1e;
+}
+    .about {
+    width: 100%;
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+        margin: 0 auto;
+}
+    
+    .about_text {
+   
+    margin: 0 auto;
+        text-align: center;
+        padding: 0 5%;
+}
+    
+    .concept_text{
+        width: 70%;
+    }
+
+.infomation {
+    width: 100%;
+    padding: 10% 0 10% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+    .info_text {
+  
+        margin: 0 auto;
+        text-align: center;
+}
+    
+/*    イベント*/
+    .harumakiko_prof{
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    
+    
+    .harumakiko_prof img{
+        width: 40%;
+    }
+    
+    .now_text{
+        text-align: center;
+    }
+    
+    .future{
+        padding: 15% 0;
+    }
+    
+    .section_future{
+        margin: 5% 0;
+    }
+    
+    .section_now{
+        margin: 10% 0 5% 0;
+    }
+    
+/*    カフェ（668）*/
+    .menu_item img{
+        width: 65%;
+        padding: 5% 0;
+    }
+    
+    .menu_item_re img{
+        width: 65%;
+        padding: 5% 0;
+    }
+    
+    .menu_item{
+        flex-direction: column;
+    }
+    
+    .menu_item_re{
+        flex-direction: column;
+    }
+    
+    .drink{
+        padding: 15% 0;
+    }
+    
+/*    アプリケーション*/
+    .address_area{
+        width: 100%;
+    }
+    
+    .entry_sheet div:first-of-type p {
+        font-size: 0.7em;
+    }
+
+/*アクセス*/
+    iframe{
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 540px){
+    
+    
+    .section_title{
+        font-size: 1.7em;
+    }
+    
+    
+/*    イベント*/
+    .harumakiko_mini_pic{
+    width: 40%;
+}
+    
+    .section_future h2{
+        padding: 7% 10%;
+    }
+    
+    .section_now h2{
+        padding: 7%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 360px){
+    
+     .section_future h2{
+        padding: 9% 10%;
+    }
+    
+    .comment_area{
+        width: 100%;
+    }
+    
+    textarea{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1220px){
+    .section_title{
+        font-size: 2.5em;
+    }
+
+
+    footer p{
+        font-size: 0.9em;
+    }
+
+    .harumakiko{
+        font-size: 1.8em;
+    }
+
+    .tax{
+        font-size:  0.9rem;
+    }
+
+    .menu_name{
+        font-size: 1.5em;
+    }
+
+    .input_boxs p span{
+       
+        font-size: 0.9rem;
+        
+    }
+
+    .entry_sheet div:first-of-type p{
+       
+        font-size: 1em;
+    }
+
+    .submit_btn{
+        
+        font-size: 1.2rem;
+      
+    }
+
+    .nav_text{
+        font-size: 1.5em;
+    }
+}
